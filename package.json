@@ -1,0 +1,31 @@
+{
+  "name": "metadata-server",
+  "version": "0.0.1",
+  "description": "A proxy server that just returns metadata tags found in the <head /> of a document.",
+  "main": "proxy.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.74.0",
+    "yargs": "^7.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquillano/metadata-proxy.git"
+  },
+  "keywords": [
+    "meta",
+    "proxy",
+    "node"
+  ],
+  "author": "steveaquillano@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aquillano/metadata-proxy/issues"
+  },
+  "homepage": "https://github.com/aquillano/metadata-proxy#readme"
+}
